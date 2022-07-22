@@ -118,8 +118,6 @@ const controlAddRecipe = async function (newRecipe) {
     console.error(`❌❌❌ ${err}`);
     addRecipeView.renderError(err.message);
   }
-
-  // Upload the new recipe data
 };
 
 const init = function () {
