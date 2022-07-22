@@ -1,0 +1,22 @@
+{
+  "name": "forkifyapp",
+  "version": "1.0.0",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-scope-hoist --dist-dir ./dist "
+  },
+  "author": "Emmanuel Manalo",
+  "license": "ISC",
+  "description": "Recipe Application",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2",
+    "sass": "^1.53.0"
+  },
+  "dependencies": {
+    "core-js": "^3.23.5",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
