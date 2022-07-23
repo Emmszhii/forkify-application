@@ -112,7 +112,7 @@ export const updateServings = function (newServings) {
 const init = function () {
   const storage = localStorage.getItem('bookmarks');
   if (storage) state.bookmarks = JSON.parse(storage);
-  clearBookmarks();
+  // clearBookmarks();
 };
 init();
 
